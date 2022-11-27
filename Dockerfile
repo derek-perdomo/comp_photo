@@ -24,5 +24,4 @@ RUN conda install -c conda-forge imageio
 RUN conda install -c conda-forge open3d
 
 
-RUN git clone https://github.com/abhibp1993/ggsolver.git
-RUN cd ggsolver && python setup.py install
+RUN git clone https://github.com/derek-perdomo/comp_photo.git
