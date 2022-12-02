@@ -5,8 +5,8 @@ import open3d as o3d
 import numpy as np
 #import convert_depth
 
-pcd = np.load('depth_maps\\pcd_0.npy')
-box = pd.read_pickle('aiodrive_boxes_mini\\box\\000000.pkl')
+pcd = np.load('depth_maps\\pcd_3.npy')
+box = pd.read_pickle('aiodrive_boxes_mini\\box\\000003.pkl')
 
 lidar_boxes = [box['lidar'][0]]
 geometries = []

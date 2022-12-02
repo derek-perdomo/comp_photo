@@ -4,7 +4,6 @@ import glob
 
 # Read depth image:
 depth_images = [iio.imread(file) for file in glob.glob('aiodrive_depth_mini\\depth_0\\00000*.png')]
-depth_images = [depth_images[0]]
 x=0
 scalar= 2.0
 for depth_image in depth_images:
